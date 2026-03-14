@@ -51,3 +51,17 @@ This folder contains the core agents of the Arkavian platform.
 These agents work together as part of the Arkavian multi-agent system.
 
 Each agent uses the Arkavian AI Engine from the core module.
+
+# Arkavian Core
+
+This folder contains the core systems of the Arkavian platform.
+
+## Current module
+
+- AIEngine
+
+## Purpose
+
+The AIEngine is the shared intelligence layer used by Arkavian agents.
+
+It provides a central engine that agents can call to process tasks and generate responses.
