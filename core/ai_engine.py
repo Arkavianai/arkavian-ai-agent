@@ -1,10 +1,9 @@
-# Arkavian AI Engine
-
 class AIEngine:
 
     def __init__(self):
-        self.model = "Arkavian AI Core"
+        self.name = "Arkavian AI Core Engine"
+        self.version = "0.1"
 
-    def generate_response(self, prompt):
-        print(f"Processing prompt: {prompt}")
-        return f"AI response generated for: {prompt}"
+    def run(self, task):
+        print(f"[{self.name} v{self.version}] Processing task: {task}")
+        return f"response from {self.name} for task '{task}'"
