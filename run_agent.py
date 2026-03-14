@@ -1,12 +1,18 @@
 from agents.agent_orchestrator import AgentOrchestrator
 
-task = "Improve customer support with AI automation"
 
-print("Running Arkavian multi-agent system...\n")
+def main():
+    task = "Improve customer support with AI automation"
 
-orchestrator = AgentOrchestrator()
-results = orchestrator.run_all(task)
+    print("Running Arkavian multi-agent system...\n")
 
-print("Results:\n")
-for agent_name, result in results.items():
-    print(f"{agent_name}: {result}")
+    orchestrator = AgentOrchestrator()
+    results = orchestrator.run_all(task)
+
+    print("Results:\n")
+    for agent_name, result in results.items():
+        print(f"{agent_name}: {result}")
+
+
+if __name__ == "__main__":
+    main()
