@@ -4,32 +4,34 @@ Arkavian is building AI agents for modern businesses.
 
 Our mission is to help companies automate workflows, scale operations, and unlock the full potential of artificial intelligence.
 
+## Current system
+
+This repository currently includes:
+
+- A shared AI engine
+- A multi-agent orchestrator
+- Automation agent
+- Research agent
+- Business agent
+- A runnable entry point with `run_agent.py`
+
+## Project structure
+
+- `agents/` – Arkavian agents
+- `core/` – shared AI engine
+- `run_agent.py` – entry point for the multi-agent system
+
 ## Vision
 
-AI agents will transform how businesses operate.  
-Arkavian is building the infrastructure that enables companies to deploy intelligent autonomous agents.
-
-## Planned Features
-
-- AI workflow automation
-- Autonomous task agents
-- Business intelligence agents
-- API integrations
-- Multi-agent orchestration
-
-## Technology
-
-Planned stack:
-
-- Python
-- FastAPI
-- OpenAI / LLM models
-- Vector databases
-- Cloud infrastructure
+Arkavian is building the foundation for an AI-powered business platform where intelligent agents work together to solve real company tasks.
 
 ## Status
 
 Early development 🚀
+
+## Website
+
+https://arkavian.com
 
 ## Website
 
