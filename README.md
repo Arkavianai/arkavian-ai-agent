@@ -34,3 +34,20 @@ Early development 🚀
 ## Website
 
 https://arkavian.com
+
+# Arkavian Agents
+
+This folder contains the core agents of the Arkavian platform.
+
+## Current agents
+
+- AutomationAgent
+- ResearchAgent
+- BusinessAgent
+- AgentOrchestrator
+
+## Purpose
+
+These agents work together as part of the Arkavian multi-agent system.
+
+Each agent uses the Arkavian AI Engine from the core module.
