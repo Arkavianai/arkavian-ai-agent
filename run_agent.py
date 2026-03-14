@@ -1,15 +1,12 @@
-from core.ai_engine import AIEngine
-from agents.research_agent import ResearchAgent
+from agents.agent_orchestrator import AgentOrchestrator
 
-engine = AIEngine()
-research_agent = ResearchAgent()
+task = "Improve customer support with AI automation"
 
-task = "Latest trends in AI agents"
+print("Running Arkavian multi-agent system...\n")
 
-print("Running Arkavian AI...\n")
+orchestrator = AgentOrchestrator()
+results = orchestrator.run_all(task)
 
-engine.run(task)
-result = research_agent.research(task)
-
-print("\nResearch Agent Result:")
-print(result)
+print("Results:\n")
+for agent_name, result in results.items():
+    print(f"{agent_name}: {result}")
